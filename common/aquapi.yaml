@@ -8,7 +8,7 @@ substitutions:
   import: "false"
 
 dashboard_import:
-  package_import_url: github://louieb39/personalaquapi/aquapi_config.yaml@mlouieb39-Testing
+  package_import_url: github://louieb39/personalaquapi/aquapi_config.yaml@louieb39-Testing
   import_full_config: "${import}"
       
 text_sensor: 
