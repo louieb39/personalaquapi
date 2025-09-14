@@ -8,7 +8,7 @@ substitutions:
   import: "false"
 
 dashboard_import:
-  package_import_url: github://TheRealFalseReality/aquapi/aquapi_config.yaml@main
+  package_import_url: github://louieb39/personalaquapi/aquapi_config.yaml@mlouieb39-Testing
   import_full_config: "${import}"
       
 text_sensor: 
@@ -29,7 +29,7 @@ text_sensor:
     id: github
     icon: mdi:github
     lambda: |-
-      return {"github.com/TheRealFalseReality/aquapi"};
+      return {"github.com/louieb39/personalaquapi"};
     entity_category: "diagnostic"
     web_server:
       sorting_group_id: sorting_group_diagnostic
